@@ -15,5 +15,6 @@
       <Text layoutX="118.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
       <Text layoutX="120.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
       <Text layoutX="260.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" />
+      <Button layoutX="234.0" layoutY="245.0" mnemonicParsing="false" onAction="#login" text="Login" />
    </children>
 </AnchorPane>
