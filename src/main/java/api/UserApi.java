@@ -8,6 +8,6 @@ import retrofit2.http.POST;
 
 public interface UserApi {
 
-    @POST("users/signin")
+    @POST("login")
     Call<AuthResponse> signIn(@Body SignInRequest request);
 }
